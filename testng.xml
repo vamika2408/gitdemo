@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+                          <!--<suite name="Suite" parallel="test"> use for close the window -->                           
+<listeners>
+<listener class-name = "mavenja.Listnerss"/>
+</listeners>
+      <test name = "tes1t">                     <!-- separeate Test use for close the window -->                                   
+    <classes>
+      <class name="mavenja.ValidateNavigation"/>    
+   </classes>
+   </test>                            
+  
+   
+
+</suite> <!-- Suite -->
